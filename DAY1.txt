@@ -1,0 +1,14 @@
+import java.security.SecureRandom:
+public final class Day1
+{
+ public static final SecureRandom SECURE_RANDOM=SecureRandom():
+ public static void main(String[] args)
+ {
+  System.out.println(*generating a random number between 100 and 200*):
+  System.out.println(randomNumber(50,100)):
+ }
+ private static int randomNumber(int minimum,int maximum)
+ {
+  return SECURE_RANDOM.nextInt(maximum-minimum)+minimum;
+ }
+}
